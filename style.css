@@ -108,7 +108,8 @@ table td:nth-child(2){
 }
 @media screen and (max-width: 835px ) {
     body{
-        background-color: rgb(38, 36, 36);
+        height: 90vp;
+        background-color: rgb(255, 255, 255);
     }
     h4.hero{
         padding: 10px 15px;
@@ -131,6 +132,7 @@ table td:nth-child(2){
          margin-top: 0px;
          margin-bottom: 40px;
          border-radius: 0px;
+         box-shadow: rgba(0, 0, 0, 0.15)3px 10px 15px;
        
          
      }
@@ -141,6 +143,7 @@ table td:nth-child(2){
         margin-top: 40px;
         border-radius: 20px 20px 0px 0px;
         background-color: hsl(0, 0%, 100%)  ;
+        box-shadow: rgba(0, 0, 0, 0.15)3px 10px 15px;
     }
     .container .image-wrapper img{
         width: 95%;
@@ -157,7 +160,8 @@ table td:nth-child(2){
 }
 @media screen and (max-width: 600px) {
     body{
-        background-color: rgb(38, 36, 36);
+        background-color: rgb(253, 253, 253);
+    
     }
     /*.container .wrapper{
         /* max-width: 700px; */
@@ -175,6 +179,7 @@ table td:nth-child(2){
         margin-top: 0px;
         margin-bottom: 30px;
         border-radius: 0px;
+        box-shadow: rgba(0, 0, 0, 0.15)3px 10px 15px;
         background-color: hsl(0, 0%, 100%);
 
      }
