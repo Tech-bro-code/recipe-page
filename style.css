@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+}
+/* body{
+    height: 100%;
+ } */
+body{
+    
+    width: 100%;
+    background-color: hsl(30, 54%, 90%);
+    height: 90vp;
+    
+
+}
+.container .wrapper{
+   /* max-width: 700px; */
+   padding: 30px 45px;
+    width: 50%;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    margin-bottom: 40px;
+    border-radius: 0px 0px 10px 10px;
+    background-color:hsl(0, 0%, 100%) ;
+    
+}
+.container .image-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    min-height: 6px;
+    margin-top: 40px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: hsl(0, 0%, 100%)  ;
+}
+.container .image-wrapper img{
+    width: 95%;
+    border-radius: 30px 30px 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-top: 30px;
+
+}
+.container .text-wrapper h2{
+    padding: 15px 0px 10px 0px;
+}
+.container .text-wrapper p{
+    padding-bottom: 5px;
+    line-height: 1.5em;
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    font-family:"Outfit", sans-serif ;
+    font-weight: 700;
+}
+.box{
+    background-color: hsl(330, 100%, 98%);
+    /* height: 150px; */
+    padding: 20px 20px;
+}
+h2{
+    font-size: 26px;
+}
+h4.hero{
+    padding: 10px 10px;
+    color: hsl(332, 51%, 32%);
+    font-size: 16px;
+}
+li::marker{
+    color: hsl(14, 45%, 36%) ;
+   
+}
+.box ul, ul, ol{
+    padding: 10px 30px 15px 30px;
+}
+.box ul li, li{
+    line-height: 1.8em;
+    font-size: 12px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    
+
+}
+h4{
+    padding: 20px 0px 5px 0px;
+    color: hsl(14, 45%, 36%);
+    font-size: 26px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table td{
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    line-height: 3em;
+    font-family: "Outfit", sans-serif;
+    
+}
+table td:nth-child(2){
+    color:hsl(14, 45%, 36%);
+    font-weight: 900;
+}
+@media screen and (max-width: 835px ) {
+    body{
+        background-color: rgb(38, 36, 36);
+    }
+    h4.hero{
+        padding: 10px 15px;
+        color: hsl(332, 51%, 32%);
+        font-size: 14px;
+    }
+    h4{
+        padding: 20px 0px 5px 0px;
+
+        font-size: 15px;
+    }
+    table td{
+        font-size: 10px;
+    }
+    .container .wrapper{
+        /* max-width: 700px; */
+        padding: 15px 35px;
+         width: 60%;
+         margin: 0 auto;
+         margin-top: 0px;
+         margin-bottom: 40px;
+         border-radius: 0px;
+       
+         
+     }
+     .container .image-wrapper{
+        width: 60%;
+        margin: 0 auto;
+        min-height: 6px;
+        margin-top: 40px;
+        border-radius: 20px 20px 0px 0px;
+        background-color: hsl(0, 0%, 100%)  ;
+    }
+    .container .image-wrapper img{
+        width: 95%;
+        border-radius: 30px 30px 0px 0px;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        padding: 10px;
+        max-width: 1200px;
+        box-sizing: border-box;
+        margin-top: 30px;
+    
+    }
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: rgb(38, 36, 36);
+    }
+    /*.container .wrapper{
+        /* max-width: 700px; */
+        /* padding: 20px 20px; */
+         /* width: 65%;
+         margin: 0 auto;
+         margin-top: 20px;
+         margin-bottom: 30px;
+         border-radius: 0px;
+         background-color: hsl(0, 0%, 100%); */
+         
+     .container .wrapper{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        border-radius: 0px;
+        background-color: hsl(0, 0%, 100%);
+
+     }
+     .container .wrapper .text-wrapper p{
+        padding-bottom: 15px;
+        line-height: 1.2em;
+        color: hsl(30, 10%, 34%);
+        font-size: 10px;
+        font-weight: 500;
+
+     }
+     /* .container .text-wrapper p{
+        padding-bottom: 15px;
+        line-height: 1.2em;
+        color: hsl(30, 10%, 34%);
+        font-size: 10px;
+        font-weight: 500;
+    } */
+     .box ul li, li{
+        line-height: 1.5em;
+        font-size: 10px;
+    }
+    /* .container .wrapper .image-wrapper{
+       
+        width: 100%;
+        margin: 0px;
+       
+        /* margin: -20px -20px 20px -20px; 
+    } */
+    .container  .image-wrapper{
+       
+        width: 60%;
+        margin: 0px auto;
+    }
+    .container .image-wrapper img{
+        width: 100%;
+        margin-top: 30px;
+     box-sizing: border-box;
+     padding: 0px;
+     border-radius: 0px;
+
+    }
+    h2{
+        font-size: 16px;
+    }
+}
+    /* .container .wrapper .image-wrapper img{
+       width: 100%;
+        margin: 0px;
+     box-sizing: border-box;
+     padding: 0px;
+     border-radius: 0px;
+    } */
+    .box{
+        background-color: hsl(330, 100%, 98%);
+        /* height: 150px; */
+        padding: 10px 10px;
+    }
+@media screen and (max-width:425px) {
+    .box{
+        background-color: hsl(330, 100%, 98%);
+        /* height: 150px; */
+        padding: 10px 10px;
+    }
+    .box ul, ul, ol{
+        padding: 10px 10px 10px 10px;
+    }
+    .box ul li, li{
+        line-height: 1.2em;
+        font-size: 8px;
+        padding: 2px 0px;
+    }
+    .box ul{
+        padding: 4px 30px;
+    }
+    h4.hero {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:380px) {
+    .box{
+        padding:10px 10px;
+    }
+    .box ul li, li{
+        line-height: 1.4em;
+        font-size: 8px;
+    }
+    h4.hero{
+        font-size: 8px;
+    }
+    .container .wrapper{
+        width: 70%;
+        padding: 15px 25px;
+    }
+    .container  .image-wrapper{
+       
+        width: 70%;
+    }
+    .box ul{
+        padding: 5px 25px;
+    }
+    
+}
+/* @media screen and (max-width: 340px) {
+    .box ul li, li{
+        line-height: 1.2em;
+        font-size: 12px;
+    }
+} */
